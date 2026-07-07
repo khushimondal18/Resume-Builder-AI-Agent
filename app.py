@@ -17,7 +17,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.sidebar.title("📄 Resume Agent")
-st.sidebar.info("Use the pages on the left to build, preview, and later generate your resume.")
+st.sidebar.info("Use these pages to build, preview, and later generate your resume.")
 
 st.markdown('<div class="big-title">🤖 AI Resume Builder Agent</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Streamlit UI → CrewAI Crew → Resume Writer + ATS Optimizer + Resume Formatter → DOCX Download</div>', unsafe_allow_html=True)
@@ -29,9 +29,9 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown('<div class="small-card">📝 <b>Step 1</b><br>Fill resume information</div>', unsafe_allow_html=True)
 with col2:
-    st.markdown('<div class="small-card">🤖 <b>Step 2</b><br>CrewAI agents process it</div>', unsafe_allow_html=True)
+    st.markdown('<div class="small-card">🤖 <b>Step 2</b><br>AI agents process it</div>', unsafe_allow_html=True)
 with col3:
     st.markdown('<div class="small-card">📄 <b>Step 3</b><br>Download DOCX resume</div>', unsafe_allow_html=True)
 
 st.write("")
-st.success("Module 1 UI ready. Go to Build Resume from the sidebar.")
+st.success("Start by filling your details on the Build Resume page.")
